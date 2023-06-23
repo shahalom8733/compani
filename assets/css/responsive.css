@@ -79,7 +79,7 @@
 }
 @media all and (max-width: 480px){
 	.banner-area h4 {
-	margin-top: 10rem;
+	margin-top: 0rem;
 
 }
 .banner-area h1 {
