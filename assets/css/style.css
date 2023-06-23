@@ -16,7 +16,7 @@ Table of Content
 4: Code Proces Area 
 5: MixitUp Area 
 6: Cv Area 
-7: Message Area;
+7: contact Area;
 8: Footer Area;
 */
 
@@ -691,7 +691,7 @@ hr {
 }
 /*end-cv-area*/
 
-/*Message-area*/
+/*contact-area*/
 .contact-from-area{
 	background-image: url(../images/map.jpg);
 	background-size: cover;
@@ -756,7 +756,7 @@ address{
     padding: 0;
     line-height: 4rem;
 }
-/*end-message-area*/
+/*end-contact-area*/
 /*footer-area*/
 footer{
 	background: #272727;
