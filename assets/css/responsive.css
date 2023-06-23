@@ -1,128 +1,129 @@
-@media all and (max-width: 1200px){
-
-#loking-blog {
-	padding: 0rem 1.5rem;
+ @media all and (max-width: 1200px){
+     #loking-blog {
+         padding: 0rem 1.5rem;
+    }
+     .working-process {
+         padding: 9rem 1.5rem;
+    }
+     .education-skill {
+         padding: 0rem 1.5rem;
+    }
+     .work-images {
+         padding: 0rem 1.5rem;
+    }
+     .cv {
+         padding: 0rem 1.5rem;
+    }
+     .from-area {
+         padding: 0rem 1.5rem;
+    }
 }
-.working-process {
-	padding: 9rem 1.5rem;
+ @media all and (max-width: 991px){
+     .process-item {
+         grid-gap: 1rem;
+    }
 }
-.education-skill {
-	padding: 0rem 1.5rem;
+ @media all and (max-width: 767px){
+     .myself {
+         float: left;
+         shape-outside: circle();
+        /* shape-margin: 0rem;
+         */
+         margin: 4rem 3rem 4rem 0rem;
+    }
+     .blog-area {
+         display: inherit;
+    }
+     [data-aos^="zoom"][data-aos^="zoom"].aos-animate {
+         -webkit-transform: inherit;
+         -ms-transform: inherit;
+         transform: inherit;
+    }
+     .process-item {
+         grid-gap: 2rem;
+         -ms-grid-columns: 1fr 2rem 1fr;
+         grid-template-columns: repeat(2, 1fr);
+    }
+     .education-skill {
+         -ms-grid-columns: (1fr)[1];
+         grid-template-columns: repeat(1, 1fr);
+    }
+     .from-area {
+         -ms-grid-columns: (1fr)[1];
+         grid-template-columns: repeat(1, 1fr);
+    }
+     .cartun {
+         height: 34rem;
+         margin-right: -7rem;
+    }
+     .work-images {
+         -ms-grid-columns: (1fr)[2];
+         grid-template-columns: repeat(2, 1fr);
+    }
 }
-.work-images {
-	padding: 0rem 1.5rem;
+ @media all and (max-width: 575px){
+     .cv {
+         padding: 3rem 0rem;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+    }
+     .been-img {
+         -webkit-box-ordinal-group: 0;
+         -ms-flex-order: -1;
+         order: -1;
+    }
+     .cartun {
+         height: 32rem;
+    }
+     .mixitup-menu button {
+         margin-bottom: 1.5rem;
+    }
 }
-.cv {
-	padding: 0rem 1.5rem;
+ @media all and (max-width: 480px){
+     .banner-area h4 {
+         margin-top: 5rem;
+    }
+     .banner-area h1 {
+         font-size: 3.7rem;
+    }
+     .self-content {
+         padding-left: 0rem;
+         width: 100%;
+    }
+     .myself img {
+         width: 19rem;
+         height: 19rem;
+    }
+     .myself {
+         margin: 8rem 3rem 11rem 0rem;
+    }
+     .process-content h2 {
+         font-size: 3rem;
+    }
+     .skills h2 {
+         font-size: 3rem;
+    }
+     .cartun {
+         height: 25rem;
+    }
+     .cv-content i {
+         font-size: 7rem;
+    }
+     .cv-content p {
+         padding-top: 2rem;
+    }
+     .cv-content {
+         width: 79%;
+    }
+     hr {
+         max-width: 33rem;
+         width: 100%;
+    }
+     .process-item {
+         -ms-grid-columns: 1fr;
+         grid-template-columns: repeat(1, 1fr);
+    }
 }
-.from-area {
-	padding: 0rem 1.5rem;
-}
-
-}
-@media all and (max-width: 991px){
-
-.process-item {
-	grid-gap: 1rem;
-}
-
-}
-@media all and (max-width: 767px){
-	.myself {
-	float: left;
-	shape-outside: circle();
-	/* shape-margin: 0rem; */
-	margin: 4rem 3rem 4rem 0rem;
-}
-.blog-area {
-	display: inherit;
-}
-[data-aos^="zoom"][data-aos^="zoom"].aos-animate {
-	transform: inherit;
-}
-.process-item {
-	grid-gap: 2rem;
-	grid-template-columns: repeat(2, 1fr);
-}
-.education-skill {
-	grid-template-columns: repeat(1, 1fr);
-}
-
-.from-area {
-	grid-template-columns: repeat(1, 1fr);
-}
-.cartun {
-	height: 34rem;
-	margin-right: -7rem;
-}
-.work-images {
-	grid-template-columns: repeat(2, 1fr);
-}
-
-
-}
-@media all and (max-width: 575px){
-	
-.cv {
-	padding: 3rem 0rem;
-	flex-direction: column;
-}
-.been-img {
-	order: -1;
-}
-.cartun {
-	height: 32rem;
-}
-.mixitup-menu button {
-	margin-bottom: 1.5rem;
-}
-
-}
-@media all and (max-width: 480px){
-	.banner-area h4 {
-	margin-top: 5rem;
-
-}
-.banner-area h1 {
-	font-size: 3.7rem;
-}
-.self-content {
-	padding-left: 0rem;
-	width: 100%;
-}
-.myself img {
-	width: 19rem;
-	height: 19rem;
-
-}
-.myself {
-	margin: 8rem 3rem 11rem 0rem;
-}
-.process-content h2 {
-	font-size: 3rem;
-}
-.skills h2 {
-	font-size: 3rem;
-
-}
-.cartun {
-	height: 25rem;
-}
-.cv-content i {
-	font-size: 7rem;
-}
-.cv-content p {
-padding-top: 2rem;
-}
-.cv-content {
-	width: 79%;
-}
-hr {
-	max-width: 33rem;
-	width: 100%;
-}
-.process-item {
-	grid-template-columns: repeat(1, 1fr);
-}
-
-}
+ 
