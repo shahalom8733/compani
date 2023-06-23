@@ -25,6 +25,9 @@
 	grid-gap: 1rem;
 
 }
+.banner-area h4 {
+	margin-top: 8rem;
+}
 
 }
 @media all and (max-width: 767px){
@@ -58,9 +61,7 @@
 .work-images {
 	grid-template-columns: repeat(2, 1fr);
 }
-.banner-area h4 {
-	margin-top: 8rem;
-}
+
 
 }
 @media all and (max-width: 575px){
