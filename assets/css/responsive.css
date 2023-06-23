@@ -58,6 +58,9 @@
 .work-images {
 	grid-template-columns: repeat(2, 1fr);
 }
+.banner-area h4 {
+	margin-top: 8rem;
+}
 
 }
 @media all and (max-width: 575px){
@@ -75,9 +78,7 @@
 .mixitup-menu button {
 	margin-bottom: 1.5rem;
 }
-.banner-area h4 {
-	margin-top: 8rem;
-}
+
 }
 @media all and (max-width: 480px){
 	.banner-area h4 {
