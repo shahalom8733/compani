@@ -79,7 +79,7 @@
 }
 @media all and (max-width: 480px){
 	.banner-area h4 {
-	margin-top: 0rem;
+	margin-top: 5rem;
 
 }
 .banner-area h1 {
@@ -121,7 +121,6 @@ hr {
 	width: 100%;
 }
 .process-item {
-	grid-gap: 2rem;
 	grid-template-columns: repeat(1, 1fr);
 }
 
